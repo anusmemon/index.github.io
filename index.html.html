@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="Account Foam.css">
+
+	<link rel="shortcut icon" type="image/png" href="icon.png">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Account Foam</title>
+	<style type="text/css">
+		
+		body{
+		background-image: url(pic.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+}
+</style>
+
+<style>
+
+	.underline {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #e74c3c;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.8s ease-in-out;
+  }
+
+  .underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+	</style>
+</head>
+<body bgcolor="white">
+
+
+	<div class="shape"></div>
+
+	<div class="image1"> <img src="pic1.jpg" style="width: 450px; height: 458px;"></div>
+
+	<a  href="#" class="underline" style="color: white;">Create Account</a>
+
+	<form action="submitform.html" autocomplete="on" method="post" name="Login-Form" target="_self">
+	<div class="fullname">
+			<input type="text" name="First Name" style="width: 80%; min-height: 30px;" placeholder="Full Name"></div>
+
+	<div class="email">
+			<input type="text" name="First Name" style="width: 80%; min-height: 30px;"  placeholder="Email Address"></div>
+
+	<div class="phone">
+			<input type="text" name="First Name" style="width: 80%; min-height: 30px" placeholder="Phone Number - Optional"></div>
+
+	<div class="password">
+			<input type="password" name="First Name" style="width: 80%; min-height: 30px" placeholder="Password"></div>
+			
+	<div class="cpassword">
+			<input type="password" name="First Name" style="width: 80%; min-height: 30px" placeholder="Conirm Password"></div>
+
+	<div class="signup">
+		    <button type="submit" style="width: 120px; min-height: 40px; background-color: #43b5e4; font-family: sans-serif;" title="Click me">SIGNUP NOW</button></div>
+	
+	<div class="anaccount">I Have an Account</div>
+
+<pre>
+	<div class="note">For students or anyone else who needs program or source code for thesis writing or any profession software development, website development,<br>              		      		          			mobile apps development at affortable cost <br> 				      			         Contact me at Email: anusmemon2004@gmail.com</font></div></pre>	
+
+					</form>
+</body>
+</html>
